@@ -11,8 +11,10 @@
 		3E6D1BDD2A6EB286000EFF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D1BDC2A6EB286000EFF90 /* ContentView.swift */; };
 		3E6D1BDF2A6EB288000EFF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6D1BDE2A6EB288000EFF90 /* Assets.xcassets */; };
 		3E6D1BE22A6EB288000EFF90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6D1BE12A6EB288000EFF90 /* Preview Assets.xcassets */; };
-		3E6D1BE42A6EB288000EFF90 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D1BE32A6EB288000EFF90 /* Persistence.swift */; };
 		3E6D1BE72A6EB288000EFF90 /* LearMapkit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D1BE52A6EB288000EFF90 /* LearMapkit.xcdatamodeld */; };
+		3EBB4F4E2A6F95AF00D34F93 /* VacationSpotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */; };
+		3EBB4F502A6F95D100D34F93 /* VacationSpotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */; };
+		3EBB4F522A6F961500D34F93 /* VacationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F512A6F961500D34F93 /* VacationListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +23,10 @@
 		3E6D1BDC2A6EB286000EFF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E6D1BDE2A6EB288000EFF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E6D1BE12A6EB288000EFF90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3E6D1BE32A6EB288000EFF90 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3E6D1BE62A6EB288000EFF90 /* LearMapkit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearMapkit.xcdatamodel; sourceTree = "<group>"; };
+		3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationSpotModel.swift; sourceTree = "<group>"; };
+		3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationSpotViewModel.swift; sourceTree = "<group>"; };
+		3EBB4F512A6F961500D34F93 /* VacationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,14 @@
 		3E6D1BD92A6EB286000EFF90 /* LearMapkit */ = {
 			isa = PBXGroup;
 			children = (
+				3EBB4F512A6F961500D34F93 /* VacationListView.swift */,
 				3E6D1BDA2A6EB286000EFF90 /* LearMapkitApp.swift */,
 				3E6D1BDC2A6EB286000EFF90 /* ContentView.swift */,
+				3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */,
 				3E6D1BDE2A6EB288000EFF90 /* Assets.xcassets */,
-				3E6D1BE32A6EB288000EFF90 /* Persistence.swift */,
 				3E6D1BE52A6EB288000EFF90 /* LearMapkit.xcdatamodeld */,
 				3E6D1BE02A6EB288000EFF90 /* Preview Content */,
+				3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */,
 			);
 			path = LearMapkit;
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E6D1BE42A6EB288000EFF90 /* Persistence.swift in Sources */,
 				3E6D1BE72A6EB288000EFF90 /* LearMapkit.xcdatamodeld in Sources */,
 				3E6D1BDD2A6EB286000EFF90 /* ContentView.swift in Sources */,
+				3EBB4F4E2A6F95AF00D34F93 /* VacationSpotModel.swift in Sources */,
 				3E6D1BDB2A6EB286000EFF90 /* LearMapkitApp.swift in Sources */,
+				3EBB4F502A6F95D100D34F93 /* VacationSpotViewModel.swift in Sources */,
+				3EBB4F522A6F961500D34F93 /* VacationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
