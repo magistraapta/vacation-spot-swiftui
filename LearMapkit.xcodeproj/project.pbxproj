@@ -15,6 +15,8 @@
 		3EBB4F4E2A6F95AF00D34F93 /* VacationSpotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */; };
 		3EBB4F502A6F95D100D34F93 /* VacationSpotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */; };
 		3EBB4F522A6F961500D34F93 /* VacationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F512A6F961500D34F93 /* VacationListView.swift */; };
+		3EBB4F542A6FA0F100D34F93 /* DetailSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F532A6FA0F100D34F93 /* DetailSpotView.swift */; };
+		3EBB4F5A2A6FA75D00D34F93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4F592A6FA75D00D34F93 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationSpotModel.swift; sourceTree = "<group>"; };
 		3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationSpotViewModel.swift; sourceTree = "<group>"; };
 		3EBB4F512A6F961500D34F93 /* VacationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationListView.swift; sourceTree = "<group>"; };
+		3EBB4F532A6FA0F100D34F93 /* DetailSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSpotView.swift; sourceTree = "<group>"; };
+		3EBB4F592A6FA75D00D34F93 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +63,13 @@
 		3E6D1BD92A6EB286000EFF90 /* LearMapkit */ = {
 			isa = PBXGroup;
 			children = (
-				3EBB4F512A6F961500D34F93 /* VacationListView.swift */,
-				3E6D1BDA2A6EB286000EFF90 /* LearMapkitApp.swift */,
+				3EBB4F572A6FA73A00D34F93 /* vviewModel */,
+				3EBB4F562A6FA72400D34F93 /* views */,
+				3EBB4F552A6FA71500D34F93 /* model */,
 				3E6D1BDC2A6EB286000EFF90 /* ContentView.swift */,
-				3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */,
 				3E6D1BDE2A6EB288000EFF90 /* Assets.xcassets */,
 				3E6D1BE52A6EB288000EFF90 /* LearMapkit.xcdatamodeld */,
 				3E6D1BE02A6EB288000EFF90 /* Preview Content */,
-				3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */,
 			);
 			path = LearMapkit;
 			sourceTree = "<group>";
@@ -77,6 +80,41 @@
 				3E6D1BE12A6EB288000EFF90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EBB4F552A6FA71500D34F93 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB4F4D2A6F95AF00D34F93 /* VacationSpotModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3EBB4F562A6FA72400D34F93 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB4F582A6FA74B00D34F93 /* New Group */,
+				3EBB4F512A6F961500D34F93 /* VacationListView.swift */,
+				3EBB4F532A6FA0F100D34F93 /* DetailSpotView.swift */,
+				3E6D1BDA2A6EB286000EFF90 /* LearMapkitApp.swift */,
+				3EBB4F592A6FA75D00D34F93 /* MainView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3EBB4F572A6FA73A00D34F93 /* vviewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB4F4F2A6F95D100D34F93 /* VacationSpotViewModel.swift */,
+			);
+			path = vviewModel;
+			sourceTree = "<group>";
+		};
+		3EBB4F582A6FA74B00D34F93 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +188,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6D1BE72A6EB288000EFF90 /* LearMapkit.xcdatamodeld in Sources */,
+				3EBB4F5A2A6FA75D00D34F93 /* MainView.swift in Sources */,
 				3E6D1BDD2A6EB286000EFF90 /* ContentView.swift in Sources */,
 				3EBB4F4E2A6F95AF00D34F93 /* VacationSpotModel.swift in Sources */,
 				3E6D1BDB2A6EB286000EFF90 /* LearMapkitApp.swift in Sources */,
+				3EBB4F542A6FA0F100D34F93 /* DetailSpotView.swift in Sources */,
 				3EBB4F502A6F95D100D34F93 /* VacationSpotViewModel.swift in Sources */,
 				3EBB4F522A6F961500D34F93 /* VacationListView.swift in Sources */,
 			);

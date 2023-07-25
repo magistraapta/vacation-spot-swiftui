@@ -11,4 +11,6 @@ struct VacationSpot: Identifiable{
     var id = UUID()
     var name: String
     var location: CLLocationCoordinate2D
+    var spotImage: String
+    var description: String
 }
